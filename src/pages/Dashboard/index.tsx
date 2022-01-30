@@ -67,7 +67,6 @@ function Dashboard (){
                             
                             <tbody>
                             {users.map((teste: any)=>{
-                              console.log(teste)
                                         return(
                                             <tr>
                                             <td>{teste.id}</td>
@@ -80,7 +79,6 @@ function Dashboard (){
                                              <td className='icone' onClick={()=>{
                                                handleOpenNewUserModal()
                                                setId(teste.id)
-                                               console.log('dashs', id);
                                              }}> 
                                                 <AiOutlineSync color="#969CB2" size={20}/>
                                             </td>

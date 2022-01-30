@@ -39,8 +39,6 @@ interface NewTransactionModal{
 
   const [simbulo, setSimbulo] = useState('');
  
-  
-  console.log("modalUP",id);
 function handleOpenNewUserModal() {
     setIsNewUserOpen(true);
 }
@@ -61,7 +59,9 @@ function handleCloseNewUserModal() {
     .then(response =>{
       alert(JSON.stringify(response.data))
     })
-    .catch(error => console.log(error))
+    .catch(response =>{
+        alert(JSON.stringify(response))
+      })
   };
 
   return(

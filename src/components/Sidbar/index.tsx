@@ -5,6 +5,7 @@ import {
     AiOutlineFileAdd,
     AiOutlineTeam,
 } from 'react-icons/ai';
+import { FaBookOpen } from "react-icons/fa";
 import {MdOutlineTimeline} from 'react-icons/md';
 import { ModalAddUser } from '../ModalAddUser';
 import {Container} from './style';
