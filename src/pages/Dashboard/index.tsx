@@ -35,7 +35,7 @@ function Dashboard (){
       function deleteUser(id: number){
         axios.delete(`https://oliveira-rondelli-api.herokuapp.com/api/planogestor/indexadores/${id}`)
         .then(response =>{
-          alert(JSON.stringify(response.data))
+          alert("deletado com sucesso")
         })
         .catch(error => console.log(error))
       }
