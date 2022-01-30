@@ -114,7 +114,7 @@ function addNewUser(){
                                         setName(event.target.value)
                                  }} required
                                  value={name}
-                                 placeholder="Rafale"
+                                 placeholder="A14"
                                 />
                                 
                             </li>
@@ -126,7 +126,7 @@ function addNewUser(){
                                        setSimbulo(event.target.value)
                                 }} required
                                 value={simbulo}
-                                placeholder="Cardoso"
+                                placeholder="A23"
                                 />
                             </li>
                         </ul>

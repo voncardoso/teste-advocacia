@@ -112,7 +112,7 @@ function handleCloseNewUserModal() {
                                         setName(event.target.value)
                                  }} required
                                  value={name}
-                                 placeholder="Rafale"
+                                 placeholder="A13"
                                 />
                                 
                             </li>
@@ -124,7 +124,7 @@ function handleCloseNewUserModal() {
                                        setSimbulo(event.target.value)
                                 }} required
                                 value={simbulo}
-                                placeholder="Cardoso"
+                                placeholder="A14"
                                 />
                             </li>
                         </ul>
