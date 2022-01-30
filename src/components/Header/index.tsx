@@ -19,7 +19,7 @@ export function Header(){
                         <strong>Rafael Santos</strong>
                 </div>
                 <ul>
-                    <li>
+                    <li className="notificacao">
                         <AiOutlineBell/>
                     </li>
                     

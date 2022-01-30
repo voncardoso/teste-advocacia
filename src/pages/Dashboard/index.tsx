@@ -2,6 +2,8 @@ import axios from 'axios'
 import {Container, Content} from './style';
 import { AiOutlineSync, AiOutlineDelete} from 'react-icons/ai';
 import { Sidbar } from "../../components/Sidbar";
+import { SidbarMobile } from "../../components/SidbarMobile";
+
 import  { useState } from 'react';
 import {Header} from '../../components/Header';
 import {ModalUpdateUser} from '../../components/ModalUpdateUser'
@@ -65,6 +67,7 @@ function Dashboard (){
                             
                             <tbody>
                             {users.map((teste: any)=>{
+                              console.log(teste)
                                         return(
                                             <tr>
                                             <td>{teste.id}</td>
@@ -94,7 +97,7 @@ function Dashboard (){
                     </table>
                 </Content>
             </Container>
-            
+            <SidbarMobile/>
             <ModalUpdateUser 
                isOpen={isNewUserModalOpen} 
                OnRequestClose={handleCloseNewUserModal}

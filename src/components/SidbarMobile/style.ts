@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 
 export const Container = styled.section`
-    max-width: 100px;
-    width: 100%;
-    height: 100vh;
+    display: none;
+    position: fixed;
+    margin-top: -4vh;
+    width: 100vw;
+    height: 40px;
     background: #969CB2;
-    display: flex;
     justify-content: flex-start;
-
+    align-self: flex-end;
         ul{
             margin: 0 auto;
             align-self: center;   
@@ -16,7 +17,7 @@ export const Container = styled.section`
             li{
                 text-decoration: none;
                 list-style: none;
-                margin-bottom: 20px;
+                margin-bottom: 0px;
                 padding-left: 0px;
                     .IconsSidbar{
                         height: 25px;
@@ -26,10 +27,7 @@ export const Container = styled.section`
             }
         }
 
-        @media(max-width: 900px){
-            max-width: 80px;
-            width: 100%;
-        }
+
 
     .timelineButton{
         display: none;
@@ -55,7 +53,7 @@ export const Container = styled.section`
 
 
     @media (max-width: 750px){
-        display: none;
+        display: flex;
      }
 
 `;

@@ -44,4 +44,13 @@ export const Container = styled.section`
             border: none;
         }
     }
+
+    @media (max-width: 750px){
+        .ultimoIconeHeader{
+            display: none;
+        }
+        .notificacao{
+            display: none;
+        }
+     }
 `;
